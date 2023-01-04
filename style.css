@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 .section-one {
     display: flex;
     background-color: #1f2937;
@@ -23,9 +27,24 @@
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #3882F6;
 }
