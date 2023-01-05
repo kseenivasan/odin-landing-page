@@ -73,20 +73,42 @@ img {
 .section-two {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: center;
     gap: 16px;
-    padding: 16px;
+    padding: 10%;
 }
 
 .section-two-title {
     font-weight: bolder;
     font-size: 36px;
     color: #1f2937;
+    margin-bottom: 50px;
 }
 
 .section-two-info {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 48px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 10%;
+    gap: 6px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    align-self: flex-start;
+    font-weight: lighter;
+}
+.quote-source {
+    font-size: 36px;
+    align-self: flex-end;
 }
