@@ -128,12 +128,12 @@ img {
     gap: 5%;
     border-radius: 5px;
     flex: 1;
-    justify-content: flex-start;
+    justify-content: space-between;
+    gap: 20%;
 }
 .text-container {
     display: flex;
     flex-direction: column;
-    flex: 1;
 }
 
 .bottom-button {
@@ -143,4 +143,11 @@ img {
     border: 2px solid white;
     color:#E5E7EB;
     padding: 5px;
+    flex: 1;
+}
+
+.section-four-text {
+    font-weight: bolder;
+    color: white;
+    font-size: 36px;
 }
